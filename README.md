@@ -31,15 +31,15 @@ Pearson’s correlation coefficients of ΔF/F0 were computed to analyze the corr
 ## Requirements
 
 - Python 3.x
-- Required Python packages: `scipy`, `pandas`, `numpy`, `matplotlib`, `seaborn`, `PIL`, `tqdm`
+- Required Python packages: `scipy`, `pandas`, `numpy`, `matplotlib`, `seaborn`, `PIL`
 
 ## Installation
 
 Clone the repository and install the required packages:
 
 ```bash
-git clone https://github.com/yourusername/calcium-signal-analysis.git
-cd calcium-signal-analysis
+git clone https://github.com/yourusername/neuMatrix.git
+cd neuMatrix
 pip install -r requirements.txt
 ```
 

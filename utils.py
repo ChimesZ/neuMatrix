@@ -1,11 +1,4 @@
-import scipy.io as scio
-import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import re
-import os
-from tqdm import tqdm
-import seaborn as sns
 
 def conv_f0 (a, ratio):
     '''
