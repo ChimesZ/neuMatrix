@@ -10,7 +10,7 @@ The 3D neuMatrix was washed with HBSS and incubated with Fluo-4 AM (Thermo Fishe
 
 ## Data Preprocessing
 
-Image sequences were preprocessed using FluoroSNNAP for large-scale imaging and Suite2P for small-scale imaging. Putative neural clusters were selected by thresholding the average image, and fluorescence intensity was extracted for each cluster. The ΔF/F0 calculation and further analysis were performed using custom Python scripts. F0 was defined as the mean fluorescence intensity of the 10 consecutive frames with the lowest intensity. Frames with ΔF/F0 greater than the mean ΔF/F0 plus 3 standard deviations were defined as frames with neural firing. The firing rate for each neural cluster was calculated as the percentage of frames with neural firing.
+Image sequences were preprocessed using [FluoroSNNAP](https://github.com/tapan-patel/FluoroSNNAP) for large-scale imaging and [Suite2P](https://github.com/MouseLand/Suite2P) for small-scale imaging. Putative neural clusters were selected by thresholding the average image, and fluorescence intensity was extracted for each cluster. The ΔF/F0 calculation and further analysis were performed using custom Python scripts. F0 was defined as the mean fluorescence intensity of the 10 consecutive frames with the lowest intensity. Frames with ΔF/F0 greater than the mean ΔF/F0 plus 3 standard deviations were defined as frames with neural firing. The firing rate for each neural cluster was calculated as the percentage of frames with neural firing.
 
 ## Correlation Analysis
 
@@ -24,9 +24,7 @@ Pearson’s correlation coefficients of ΔF/F0 were computed to analyze the corr
 
 ## Usage
 
-1. **Prepare Data**: Ensure the data files are correctly placed in the specified directory.
-2. **Run the Code**: Execute the main script to generate and save analysis results.
-3. **Analyze Results**: Use the generated images and data files to analyze neural cluster firing patterns and correlations.
+[Example Notebook](example_notebook.ipynb)
 
 ## Requirements
 
@@ -47,7 +45,13 @@ pip install -r requirements.txt
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+## Citation
 
-- Fluo-4 AM and imaging techniques were provided by Thermo Fisher and Nikon.
-- Preprocessing tools FluoroSNNAP47 and Suite2P48 were used for image analysis.
+If you use this code, please cite the following paper:
+
+```bibtex
+@article{your_paper_title,
+  title={Your Paper Title},
+  author={Your Name},
+  journal={Your Journal},
+}
