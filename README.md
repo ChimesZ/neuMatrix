@@ -49,9 +49,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you use this code, please cite the following paper:
 
-```bibtex
-@article{your_paper_title,
-  title={Your Paper Title},
-  author={Your Name},
-  journal={Your Journal},
-}
+```
+Wait for final publication...
+```
