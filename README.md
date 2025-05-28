@@ -50,5 +50,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you use this code, please cite the following paper:
 
 ```
-Wait for final publication...
+@article{https://doi.org/10.1002/advs.202504455,
+author = {Yang, Huiyu and Zhang, Jiangang and Li, Yiran and Zhong, Zihan and Li, Wenhua and Luo, Haojun and Liu, Yanyong and Ouyang, Liujian and Jiang, Zhuoran and Sun, Yuning and Sun, Hang and Liu, Lulu and Yang, Huayu and Wang, Yu and Yang, Nan and Ma, Wenbin and Mao, Yilei},
+title = {Multiscale Organization of Neural Networks in a 3D Bioprinted Matrix},
+journal = {Advanced Science},
+pages = {e04455},
+doi = {https://doi.org/10.1002/advs.202504455},
 ```
